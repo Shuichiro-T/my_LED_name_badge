@@ -13,6 +13,7 @@
 | [test03_GC9A01](test03_GC9A01) | GC9A01を`tinygo.org/x/drivers/gc9a01`ドライバで初期化し画面を赤色で塗りつぶす検証（TinyGo）。SPI1 + GPIO10-14の配線で導通確認済み。 |
 | [test05_GC9A01_raw](test05_GC9A01_raw) | ドライバを使わず、GC9A01のレジスタ制御を直接SPIコマンドとして送信する低レイヤーの初期化・描画検証（TinyGo）。test03で確認した配線を踏襲。 |
 | [test06_GC901A_python](test06_GC901A_python) | Raspberry Pi Zero + GC9A01Aを、CircuitPython（Adafruit Blinka）とPillowで動作確認するPythonプログラム。 |
+| [test07_EPD213BWR](test07_EPD213BWR) | WeAct Studio 2.13インチ電子ペーパーモジュール（E0213A179、SSD1680、122x250px、白黒赤3色）に「しゅういちろ」と表示する名札プログラム（TinyGo）。ドライバはSSD1680を直接SPI制御する自前実装。 |
 
 ## 対象ハードウェア
 
