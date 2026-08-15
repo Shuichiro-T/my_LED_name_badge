@@ -1,0 +1,6 @@
+{
+    "inherits": ["xiao-rp2350"],
+    "ldflags": [
+        "--defsym=__flash_size=4M"
+    ]
+}
