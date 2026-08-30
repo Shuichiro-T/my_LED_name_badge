@@ -14,6 +14,8 @@
 | [test05_GC9A01_raw](test05_GC9A01_raw) | ドライバを使わず、GC9A01のレジスタ制御を直接SPIコマンドとして送信する低レイヤーの初期化・描画検証（TinyGo）。test03で確認した配線を踏襲。 |
 | [test06_GC901A_python](test06_GC901A_python) | Raspberry Pi Zero + GC9A01Aを、CircuitPython（Adafruit Blinka）とPillowで動作確認するPythonプログラム。 |
 | [test07_EPD213BWR](test07_EPD213BWR) | WeAct Studio 2.13インチ電子ペーパーモジュール（E0213A179、SSD1680、122x250px、白黒赤3色）に「しゅういちろ」と表示する名札プログラム（TinyGo）。ドライバはSSD1680を直接SPI制御する自前実装。 |
+| [test11_dual_badge](test11_dual_badge) | 電子ペーパー（EPD213BWR）と円形ディスプレイ（GC9A01）を1台のPico 2に同時接続する名札プログラム（TinyGo）。電子ペーパーに名前とXアカウント、円形ディスプレイにXロゴを表示。SPI0/SPI1を分けて使うことで干渉を回避。 |
+| [test12_triple_badge](test12_triple_badge) | test11_dual_badgeに、WS2812 LEDマトリクス（test10_WS2812_matrix_scroll）のスクロール表示を追加したプロトタイプデモ（TinyGo）。電子ペーパー・円形ディスプレイ・LEDマトリクスを1台のPico 2で同時に動かす。 |
 
 ## 対象ハードウェア
 
